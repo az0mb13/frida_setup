@@ -17,7 +17,7 @@ Works with Genymotion Emulator.
 * Pushes and installs the required files inside the ADB.
 * Cleans up the files and a reboot of the android system.
 
-## After-Install
+## Post-Installation
 
 * Run the frida server from `/data/local/tmp` inside `adb shell`.
 * Setup your proxies in Burp and Android's Wifi settings.
