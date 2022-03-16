@@ -3,7 +3,7 @@
 Installer script for Frida and Burp's certificate to help setup bypass SSL Pinning in Android applications. 
 Works with Genymotion Emulator.
 
-Read the blog post for a detailed walkthrough -> <a href="https://blog.dixitaditya.com/one-click-ssl-pinning-bypass-setup/">One-click SSL-Pinning Bypass Setup</a>
+Read the blog post for a detailed walkthrough -> <a href="https://blog.dixitaditya.com/one-click-ssl-pinning-bypass-setup">One-click SSL-Pinning Bypass Setup</a>
 ## Installation steps
 
 * Make sure you have a device installed in Genymotion and it's up and running so the script can interact with ADB.
