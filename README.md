@@ -23,7 +23,7 @@ Read the blog post for a detailed walkthrough -> <a href="https://blog.dixitadit
 
 * Run the frida server from `/data/local/tmp` inside `adb shell`.
 * Setup your proxies in Burp and Android's Wifi settings.
-* Start the ssl-pinning bypass using `frida -U -f <package_name> -l frida2.js --no-pause`
+* Start the ssl-pinning bypass using `frida -U -f <package_name> -l frida3.js`
 
 #### Note: 
 
