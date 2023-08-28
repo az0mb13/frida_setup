@@ -1,7 +1,8 @@
 # Frida Setup
 
 Installer script for Frida and Burp's certificate to help setup bypass SSL Pinning in Android applications. 
-Works with Genymotion Emulator.
+Works with Genymotion Emulator. Also works with Android studio if the emulator is started with the `-writable-system` flag. Eg: <br>
+`./emulator -avd Pixel_3a_API_33_x86_64 -writable-system`
 
 Read the blog post for a detailed walkthrough -> <a href="https://blog.dixitaditya.com/one-click-ssl-pinning-bypass-setup">One-click SSL-Pinning Bypass Setup</a>
 ## Installation steps
@@ -28,4 +29,4 @@ Read the blog post for a detailed walkthrough -> <a href="https://blog.dixitadit
 
 * Tested only on Arch Linux. Might have to change the `sed` command accordingly if you're on MacOS.
 * Adjust `pip` to `pip3` if needed in the script.
-* Highly recommend using `frida2.js` rather than `frida.js`.
+* Highly recommend using `frida3.js` rather than other scripts.
